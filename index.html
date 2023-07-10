@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vase Lazarev - Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="javascript/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="sliki/vase.jpg">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Vase</a>
+
+        <span onclick="menuCLick()" id="menu-icon-span"><i  class="bx bx-menu" id="menu-icon"></i></span>
+
+        <nav class="navigation_bar">
+            <a onclick="changeActive(event)" id="home-link" href="#home" class="active">Home</a>
+            <a onclick="changeActive(event)" id="about-link" href="#about">About</a>
+            <a onclick="changeActive(event)" id="education-link" href="#education">Education</a>
+            <a onclick="changeActive(event)" id="contact-link" href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am Vase</h3>
+            <h2>Student at</h2>
+            <span class="multiple-text"><h4>Faculty of Computer Science and Engineering, Skopje</h4></span>
+            <div class="social-media">
+                <a href="https://www.facebook.com/vase.lazarev.5"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/lazarevvase"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="mailto:vase.lazarev@students.finki.ukim.mk subject=Mail%20do%20Vase%20Lazarev"><i class="bx bxl-gmail"></i></a>
+                <a href="https://mk.linkedin.com/in/vase-lazarev-801900258"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="sliki/New%20slavce2.png" alt="slika-jas">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img"> </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <br><br>
+
+            <h3>I am Vase Lazarev, a first year student who is currently enrolled at the Faculty of Computer Science and Engineering.</br>
+                I come from Radovis, Macedonia and I love basketball, rap music, working out and watching Netflix.</h3>
+
+        </div>
+    </section>
+    <div class="h_line"></div>
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+            <br><br><br><br>
+            <span class="skolo">Elementary School - Krste Petkov Misirkov, Radovis</span><br>
+            <span class="godina">2014 - 2018</span>
+            <br><br><br>
+            <span class="skolo">High School - Kosta Susinov, Radovis</span><br>
+            <span class="godina">2018 - 2022</span>
+            <br><br><br>
+            <span class="skolo">College - FINKI, Skopje</span><br>
+            <span class="godina">2022 - current</span>
+            <br><br><br><br><br><br><br><br><br>    <div class="h_line"></div>
+
+
+
+    </section>
+    <br><br><br><br><br><br><br><br><br>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number">
+                <input type="email" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols=30 rows=10 placeholder="Message">
+            </textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; Vase Lazarev 2023. Design inspired by Codehal</p>
+        </div>
+        <div class="footer-iconTop">
+            <a onclick=setHome(event) href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</body>
+</html>
